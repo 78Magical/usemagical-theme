@@ -1,0 +1,32 @@
+{
+  "name": "usemagical-theme",
+  "version": "1.0.0",
+  "repository": "https://github.com/61magical/usemagic-theme",
+  "description": " usemagical-theme is a javascript library, it is just a function that returns an object of css color code, check Magical design system for more info",
+  "sideEffects": false,
+  "homepage": "https://coming-soon.web.app",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "check": "tsc -p jsconfig.json --watch",
+    "clean": "rm -rf dist/",
+    "copy": "cp README.md CHANGELOG.md dist",
+    "dev": "microbundle watch",
+    "prepare": "npm run clean && microbundle && npm run copy && tsc -p jsconfig.json",
+    "start": "npm run prepare && npm publish"
+  },
+  "keywords": [
+    "usemagic",
+    "usemagic-theme",
+    "css",
+    "color",
+    "merlin-color"
+  ],
+  "author": "61Magical",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.15.0"
+  }
+}
