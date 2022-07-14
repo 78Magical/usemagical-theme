@@ -11,7 +11,7 @@
         text-align:center;
         font-weight:800'
     >
-       useMagicTheme 🟣📘🍊
+       useMagicalTheme 🟣📘🍊
     </h1>
     <p style='
         color:#7920FF; '>
@@ -21,7 +21,7 @@
  <br/>
 </div>
 
-useMagicTheme is a magical theme library, useMagicTheme is basically a function that accept a boolean value as a parameter and return  prebuilt object of css HEX value 
+useMagicalTheme is a magical theme library, useMagicalTheme is basically a function that accept a boolean value as a parameter and return  prebuilt object of css HEX value 
 
 # Installation
 
@@ -37,10 +37,10 @@ yarn add usemagical-theme
 ```js
 Javascript
 
-import {useMagicTheme} from 'usemagical-theme'
+import {useMagicalTheme} from 'usemagical-theme'
 
 const button = document.getElementById('merlinButton')
-const { background, brandColor} = useMagicTheme( true )
+const { background, brandColor} = useMagicalTheme( true )
 
 button.style.backgroundColor = brandColor
 
